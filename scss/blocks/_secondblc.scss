@@ -1,0 +1,87 @@
+.secondblc {
+  margin: 100px 0px;
+  &__container {
+  }
+  &__body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    display: flex;
+  }
+  &__projects {
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__card {
+    display: flex;
+  }
+}
+.secondnav {
+  &__litter {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter Tight";
+    font-size: rem(100);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 192px */
+    text-transform: uppercase;
+  }
+  &__list {
+  }
+  &__link {
+    margin: 0px 30px;
+    color: rgba(255, 255, 255, 0.393);
+    font-family: "Inter Tight";
+    font-size: rem(56);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 96px */
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.card {
+  background-image: url("../../img/block2/image.png");
+  border-radius: 20px;
+  height: 500px;
+  row-gap: 20px;
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 40px;
+  &__image &__body {
+  }
+  &__subtitle {
+    color: #333;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Inter Tight";
+    font-size: rem(24);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 26.4px */
+    letter-spacing: -0.48px;
+  }
+  &__title {
+    color: #333;
+    font-family: "Inter Tight";
+    font-size: rem(36);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 43.2px */
+    letter-spacing: -0.72px;
+  }
+}

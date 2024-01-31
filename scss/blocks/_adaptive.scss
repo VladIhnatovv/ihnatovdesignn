@@ -1,0 +1,220 @@
+@media (min-width: 1399.98px) {
+  .card:nth-child(2n) {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 1220px) {
+  .row__first {
+    &-title {
+      font-size: 16.75rem;
+      line-height: 90%;
+      letter-spacing: -19px;
+    }
+  }
+  .row__second {
+    &-contact {
+      border-radius: 100%;
+      padding: 80px 50px;
+    }
+    &-title {
+      font-size: 16.75rem;
+      line-height: 70%; /* 342px */
+    }
+  }
+  .secondnav__link {
+    font-size: rem(36);
+  }
+}
+@media (max-width: 999.98px) {
+  .firstblc__body {
+    gap: 40px;
+  }
+  .header__logo {
+    font-size: 24px;
+  }
+  .row__first {
+    &-title {
+      font-size: 12.75rem;
+      line-height: 90%;
+      letter-spacing: -19px;
+    }
+  }
+  .row__second {
+    &-contact {
+      border-radius: 100%;
+      padding: 60px 30px;
+      margin-right: 10px;
+    }
+    &-title {
+      font-size: 12.75rem;
+      line-height: 70%; /* 342px */
+    }
+  }
+  .row__first-text {
+    font-size: rem(12);
+  }
+  .secondnav__link {
+    font-size: rem(24);
+    margin: 0px 15px;
+  }
+  .secondnav__litter {
+    font-size: rem(67);
+  }
+
+  .content__number {
+    font-size: 1.7rem;
+  }
+  .content__service {
+    font-size: 1.7rem;
+  }
+  .content__text {
+    font-size: 1.25rem;
+    width: 22.5rem;
+  }
+  .content__price {
+    font-size: 1.7rem;
+  }
+  .content__time {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 699.98px) {
+  .row__first {
+    &-title {
+      font-size: 7rem;
+      line-height: 60%;
+      letter-spacing: -2px;
+    }
+    &-text {
+      color: #fff;
+      font-family: "Inter Tight";
+      font-size: rem(10);
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%; /* 27.2px */
+      max-width: 200px;
+    }
+  }
+  .row__second {
+    &-contact {
+      padding: 50px 20px;
+      margin-right: 10px;
+    }
+    &-title {
+      font-size: 7rem;
+      letter-spacing: 2px;
+      line-height: 40%; /* 342px */
+    }
+  }
+  .secondblc__card {
+    padding: 30px 10px;
+    height: 400px;
+  }
+  ////////////////////////////
+  .thirdblc__title {
+    font-size: rem(56);
+  }
+  .services__title {
+    font-size: rem(36);
+  }
+  .content__number {
+    font-size: 1.4rem;
+  }
+  .content__service {
+    font-size: 1.4rem;
+  }
+  .content__text {
+    font-size: 0.8rem;
+    width: 16.5rem;
+  }
+  .content__price {
+    font-size: 1.4rem;
+  }
+  .content__time {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 599.98px) {
+  .mailSend__container {
+    margin: 50px 0px !important;
+  }
+  .thirdblc__container {
+    margin: 50px 0px !important;
+  }
+  .row__first-text {
+    font-size: rem(8);
+  }
+  .header__contact {
+    font-size: rem(14);
+    transition: all 0.5s ease-in-out 0s;
+  }
+  .menu__link {
+    font-size: rem(16);
+    opacity: 0.7;
+    &:nth-child(2) {
+      margin: 0px 20px;
+    }
+  }
+  .row__first {
+    &-title {
+      font-size: 6rem;
+      line-height: 60%;
+      letter-spacing: -2px;
+    }
+  }
+  .row__second {
+    &-contact {
+      padding: 50px 30px;
+      margin-right: 10px;
+      font-size: rem(14);
+    }
+    &-title {
+      font-size: 5rem;
+      letter-spacing: 2px;
+      line-height: 40%; /* 342px */
+    }
+  }
+  /////////////////////////////
+  .secondnav__link {
+    font-size: rem(16);
+    margin: 0px 8px;
+  }
+  .secondnav__litter {
+    font-size: rem(36);
+  }
+  /////////////////////////
+  .secondblc__card {
+    padding: 30px 10px;
+    height: 300px;
+  }
+  .card__title {
+    font-size: 1.5rem;
+  }
+  .card__subtitle {
+    font-size: 1.2rem;
+  }
+  .footer__body {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .content__number {
+    font-size: 1.2rem;
+  }
+  .content__service {
+    font-size: 1.2rem;
+  }
+  .content__text {
+    font-size: 0.5rem;
+    width: 10rem;
+  }
+  .content__price {
+    font-size: 1.2rem;
+  }
+  .content__time {
+    font-size: 1.2rem;
+  }
+
+  .mailSend__title {
+    font-size: rem(36) !important;
+  }
+}

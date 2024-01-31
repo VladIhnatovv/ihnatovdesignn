@@ -1,0 +1,102 @@
+.services__body {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  width: 100%;
+}
+.services__title {
+  text-align: center;
+  color: #fff;
+  font-family: "Inter Tight";
+  font-size: rem(46);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 43.2px */
+  letter-spacing: -0.72px;
+}
+.services__column {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.services__content {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  flex-direction: column;
+}
+.content__block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content__line {
+  width: 100%;
+  height: 2px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.content__number {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter Tight";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 2.2rem */
+  letter-spacing: -0.04rem;
+}
+.content__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.content__service {
+  color: #fff;
+  font-family: "Inter Tight";
+  font-size: 2.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 5.4rem */
+  letter-spacing: -0.0675rem;
+}
+.content__text {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Inter Tight";
+  font-size: 1.25rem;
+  font-style: normal;
+  width: 38.5rem;
+  font-weight: 400;
+  line-height: 160%; /* 2rem */
+  letter-spacing: -0.025rem;
+}
+.content__price {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter Tight";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 2.2rem */
+  letter-spacing: -0.04rem;
+}
+.content__time {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter Tight";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 2.2rem */
+  letter-spacing: -0.04rem;
+}
+.content__card {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
