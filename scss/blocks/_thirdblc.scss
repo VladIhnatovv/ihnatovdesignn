@@ -39,7 +39,9 @@
   justify-content: center;
   background: #ffffff;
 }
-
+.swiper-wrapper {
+  gap: 20px;
+}
 .swiper-slide {
   border-radius: 20px;
 }

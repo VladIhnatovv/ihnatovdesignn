@@ -138,6 +138,10 @@
   .firstblc__body {
     margin-top: 120px;
   }
+  .thirdblc__swiper-buttonLeft,
+  .thirdblc__swiper-buttonRight {
+    display: none;
+  }
   .menu__link {
     font-size: rem(36);
   }
@@ -305,6 +309,8 @@
     display: flex;
     gap: 20px;
     align-items: baseline;
+    width: 100%;
+    justify-content: space-around;
   }
   .content__number {
     font-size: 1rem;
@@ -344,10 +350,10 @@
     font-size: rem(24);
   }
   .row__first-title {
-    font-size: 7rem;
+    font-size: 8rem;
   }
   .row__second-title {
-    font-size: 6rem;
+    font-size: 7rem;
   }
   .row__second-contact {
     display: none;
@@ -375,16 +381,15 @@
     max-width: none;
   }
   .thirdblc__title {
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 1px;
   }
   .thirdblc__text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     max-width: 80%;
   }
   .swiper-slide {
     width: auto;
-    margin-right: 25px;
   }
   .person__info-name {
     font-size: rem(18);
@@ -413,19 +418,22 @@
   .thirdblc__swiper-buttonLeft:hover {
     background-color: transparent;
   }
+  .swiper-wrapper {
+    gap: 10px;
+  }
   .content__first {
     gap: 20px;
   }
   .content__number {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .content__price {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .content__time {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .content__text {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
