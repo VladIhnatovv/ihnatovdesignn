@@ -20,6 +20,11 @@ body {
     padding: 0px 15px;
     margin-top: 30px;
   }
+  &__content {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
   &__logo {
     color: #fff;
     font-family: "Inter Tight";
@@ -78,4 +83,16 @@ body {
       opacity: 1;
     }
   }
+}
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
 }

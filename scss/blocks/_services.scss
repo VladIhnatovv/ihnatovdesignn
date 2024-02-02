@@ -100,3 +100,13 @@
   align-items: baseline;
   justify-content: space-between;
 }
+.content__first {
+  display: flex;
+  gap: 40px;
+  align-items: baseline;
+}
+.content__second {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
